@@ -1,16 +1,7 @@
-# my_first_app
+# flutter_example
 
-A new Flutter project.
+A simple flutter app that is explained in the following posts;
 
-## Getting Started
-
-This project is a starting point for a Flutter application.
-
-A few resources to get you started if this is your first Flutter project:
-
-- [Lab: Write your first Flutter app](https://flutter.io/docs/get-started/codelab)
-- [Cookbook: Useful Flutter samples](https://flutter.io/docs/cookbook)
-
-For help getting started with Flutter, view our 
-[online documentation](https://flutter.io/docs), which offers tutorials, 
-samples, guidance on mobile development, and a full API reference.
+1. [A simplified introduction to Dart and Flutter](https://medium.freecodecamp.org/https-medium-com-rahman-sameeha-whats-flutter-an-intro-to-dart-6fc42ba7c4a3)
+2. [How to handle navigation in your Flutter apps](https://medium.freecodecamp.org/how-to-handle-navigation-in-your-flutter-apps-ceaf2f411dcd)
+3. [Using Firebase’s Cloud Firestore in Flutter](https://heartbeat.fritz.ai/using-firebases-cloud-firestore-in-flutter-79a79ec5303a)

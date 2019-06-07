@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 
-class SecondPage extends StatelessWidget {
-  SecondPage({@required this.title, this.description});
+class TaskPage extends StatelessWidget {
+  TaskPage({@required this.title, this.description});
 
   final title;
   final description;

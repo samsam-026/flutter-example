@@ -1,5 +1,5 @@
 import 'package:flutter/material.dart';
-import '../secondPage.dart';
+import '../task.dart';
 
 class CustomCard extends StatelessWidget {
   CustomCard({@required this.title, this.description});
@@ -19,7 +19,7 @@ class CustomCard extends StatelessWidget {
                     child: Text("See More"),
                     onPressed: () {
                       /** Push a named route to the stcak, which does not require data to be  passed */
-                      // Navigator.pushNamed(context, "/a");
+                      // Navigator.pushNamed(context, "/task");
 
                       /** Create a new page and push it to stack each time the button is pressed */
                       // Navigator.push(context, MaterialPageRoute<void>(
@@ -42,7 +42,7 @@ class CustomCard extends StatelessWidget {
                       Navigator.push(
                           context,
                           MaterialPageRoute(
-                              builder: (context) => SecondPage(
+                              builder: (context) => TaskPage(
                                   title: title, description: description)));
                     }),
               ],
